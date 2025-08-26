@@ -17,14 +17,14 @@ environment_name = "dcapt-product"
 # For JSM set product as jira.
 # e.g.: products = ["jira"]
 # ! REQUIRED !
-products = ["product-to-deploy"]
+products = ["jira"]
 
 # License
 # To avoid storing license in a plain text file, we recommend storing it in an environment variable prefixed with `TF_VAR_` (i.e. `TF_VAR_jira_license`) and keep the below line commented out
 # If storing license as plain-text is not a concern for this environment, feel free to uncomment the following line and supply the license here.
 # ! IMPORTANT ! Please make sure valid license is used without spaces and new line symbols.
 # ! REQUIRED !
-jira_license = "jira-license"
+jira_license = "AAAB3Q0ODAoPeNqVUl2PmkAUfedXkPSljcEFVFY3IakLY0vLxy5ou9v4MuAVpkWGzIBb9td3QI22u iZNeJkzzDn3nHveebSQp3Uq6yNZH9wNx+KTLXsu66o+kiwGuCK0sHEFZoso6ljRDcklCRQc5k0JP t6AaQWeh0LLmbrST8Jwf3+PVqR9bSJ/jsKH0ImQ5NebGFiwXnBg3FS0AxX6XRLWnOhMFKHfkZWMr uqk6rcHhdN19YIZ9HFSkS2YFatBiuqYJ4yUnViHoC3Oa3w8d0SCHVtQVMB2YL6T/ox5ZnrWizWzv vbixEWz+ao36THCvxvlM81vsjyoplkY5lke29v4R7AwFnnIXieFN3tK0vz+cWkuzYMTxzZdx46Qr 7i6pumD2+Hwmo+owqydaI1zLpwA2wITFPdPqq5MngNNcfyxobjB6JP0C5pvIrXWlGao6q06Hgw0K WUARUbLEtiV3B9qlmSYw7+bPH3dRVMK34dYkW/+7eOC1qUO2HBcxxfhVo72buX37Q7k3RI+LO/k4 54kDxOBFrhI/r8MZ606HfS0KVc43mjHIXFdCliKC8J3rWpoCjz7SIXJDXmlrOkndCNZtKiEHBJe8 jd+6SY4m7dDzwa9EvFeqYMvC/0BbGZVUTAsAhQdH9Au6+l3XjA2YpirGSEGDCkusQIUYTLOxvuT8 K/IDMLuMrfcUdIMB9I=X02mm"
 confluence_license = "confluence-license"
 bitbucket_license = "bitbucket-license"
 crowd_license = "crowd-license"
